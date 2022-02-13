@@ -22,7 +22,7 @@ $(function () {
     // 发起 ajax 请求注册
     $.ajax({
       method: 'POST',
-      url: 'http://www.liulongbin.top:3007/api/reguser',
+      url: '/api/reguser',
       data: {
         username: username,
         password: password
@@ -45,7 +45,7 @@ $(function () {
     // 发送请求登录
     $.ajax({
       method: 'POST',
-      url: 'http://www.liulongbin.top:3007/api/login',
+      url: '/api/login',
       data: {
         username: username,
         password: password
