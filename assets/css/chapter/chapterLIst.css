@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background-color: #f2f3f5;
+}
+
+.filter-wrapper form {
+  display: flex;
+}
+
+.filter-wrapper .layui-form-item{
+  margin: 0 5px;
+}
